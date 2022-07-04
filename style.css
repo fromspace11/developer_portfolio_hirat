@@ -1,17 +1,24 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Righteous', cursive;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Rubik Moonrocks', cursive;
+
     margin: 0;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .color {
@@ -38,7 +45,7 @@ section {
 
 .link_button {
     text-decoration: none;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(violet, orange);
     font-weight: 700;
     padding: 10px 30px;
     border-radius: 5px;
