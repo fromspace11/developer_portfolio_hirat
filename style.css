@@ -45,7 +45,7 @@ section {
 
 .link_button {
     text-decoration: none;
-    background-image: linear-gradient(violet, orange);
+    background-image: linear-gradient(#F7CAC9, #B565A7);
     font-weight: 700;
     padding: 10px 30px;
     border-radius: 5px;
@@ -74,7 +74,12 @@ section {
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 10px 10px 20px indianred;
+    box-shadow: 1px 10px 30px RGB(247, 202, 201);
     border-radius: 10px;
     border-left: 5px solid grey;
+}
+
+.photo {
+    box-shadow: 5px 10px 10px turquoise;
+    border-radius: 80px;
 }
