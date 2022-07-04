@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .color {
     color: orange;
 }
@@ -40,14 +44,27 @@ section {
 .top_banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background-size: 110%;
 }
 
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 7%;
 }
 
 .experience {
     display: inline-block;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.shadow {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 20px indianred;
+    border-radius: 10px;
+    border-left: 5px solid grey;
 }
