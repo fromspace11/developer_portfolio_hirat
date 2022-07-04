@@ -1,8 +1,27 @@
 body {
-    font-family: 'Josefin Sans', sans-serif;
-
+    padding-bottom: 25px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
+
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-button {
+    text-align: center;
+}
+
+
 
 h1 {
     font-size: 60px;
@@ -45,16 +64,16 @@ section {
 
 .link_button {
     text-decoration: none;
-    background-image: linear-gradient(#F7CAC9, #B565A7);
+    background-image: linear-gradient(#e6c99a, white);
     font-weight: 700;
     padding: 10px 30px;
     border-radius: 5px;
 }
 
 .top_banner {
-    background-image: url(images/top-banner.png);
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-size: 110%;
+
 }
 
 .dream-big {

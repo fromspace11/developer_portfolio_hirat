@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+
     <section class="top_banner">
         <div class="half-width">
             <h1>Welcome To</h1>
@@ -63,6 +65,26 @@
             </div>
         </div>
     </section>
+    <div class="dark-button">
+        <h3 id="DarkModetext">Light Mode is OFF</h3>
+        <button onclick="darkMode()">Darkmode</button>
+        <button onclick="lightMode()">LightMode</button>
+        <script>
+            function darkMode() {
+                var element = document.body;
+                var content = document.getElementById("DarkModetext");
+                element.className = "dark-mode";
+                content.innerText = "Light Mode is OFF";
+            }
+            function lightMode() {
+                var element = document.body;
+                var content = document.getElementById("DarkModetext");
+                element.className = "light-mode";
+                content.innerText = "Light Mode is ON";
+            }
+        </script>
+    </div>
+
 </body>
 
 
